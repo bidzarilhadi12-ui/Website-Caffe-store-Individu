@@ -1,0 +1,50 @@
+<!-- ===================== -->
+<!-- FILE: index.html -->
+<!-- ===================== -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Caffe Bidzar</title>
+
+
+<!-- HUBUNGKAN FILE CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+<h1>Caffe Bidzar</h1>
+
+
+<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" class="caffe-img" alt="Caffe">
+
+
+<label>Nama Pelanggan</label>
+<input type="text" id="nama">
+
+
+<label>Pilih Minuman</label>
+<select id="menu">
+<option value="">-- Pilih --</option>
+<option value="kopi">Kopi</option>
+<option value="teh">Teh</option>
+</select>
+
+
+<label>Jumlah</label>
+<input type="number" id="jumlah">
+
+
+<button onclick="hitung()">Pesan</button>
+
+
+<div class="hasil" id="output">Hasil akan tampil di sini</div>
+</div>
+
+
+<!-- HUBUNGKAN FILE JAVASCRIPT -->
+<script src="script.js"></script>
+</body>
+</html>
